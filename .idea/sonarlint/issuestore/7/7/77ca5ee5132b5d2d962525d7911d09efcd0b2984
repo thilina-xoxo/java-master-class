@@ -1,0 +1,14 @@
+
+f
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ë´åİşÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö¾
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ü–®ÿÿÿÿÿ
+<	java:S131""Add a default case to this switch.(ë´åİşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(—±©şÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ĞÒÑ¬
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(éúÃ
+M	java:S106*"9Replace this use of System.out or System.err by a logger.(À˜¾T
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(–ñÃÖÿÿÿÿÿ
+]	java:S1253"<This block of commented-out lines of code should be removed.(ÍìäÆùÿÿÿÿ8Ê»¾Â0
+L
+java:S1068"/Remove this unused "mobilePhone" private field.(Áöİ8Ë»¾Â0

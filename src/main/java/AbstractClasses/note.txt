@@ -1,0 +1,17 @@
+entire inteface is abstract but in
+
+example : abstract bird class that extends animal and has abstract fly method
+
+abstracted classes can not be directly instantiated
+
+Interface or Abstract classes
+
+Abstract classes can have member variables
+Interfaces can have static constants (public static final) -> constant values that never change
+ // should be static, non static variables requires instances
+ // Interfaces can not be instatiated
+ // can not have constructors
+
+ methods of interfaces are public, methods of abstract classes can have any visibility
+
+ collection API, list interface that implement LinkedList and ArrayList

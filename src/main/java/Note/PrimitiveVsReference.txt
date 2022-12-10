@@ -1,0 +1,8 @@
+Primitive type - int, double, bool
+
+all primitive types are value types, that means they are holding a value
+
+Reference type (Reference holds reference to the object, "address" not the object itself) - Array , String
+
+// two references pointing to same array in memory
+

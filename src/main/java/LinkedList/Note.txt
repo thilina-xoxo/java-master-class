@@ -1,0 +1,33 @@
+4 bytes of memory for each integer
+8 bytes of memory for each double
+
+// why linked list - perfect for inserting records
+
+consider array list
+
+Class check {
+    Arraylit<> list = new ArrayList<>();
+
+    list.add(1);
+    list.add(2);
+    list.add(3);
+
+    for (int i=0; i < list.size(); i++) {
+        sout(i)  // three item is printed
+    }
+
+    list.add(1,2) // add element two to the second index of the arraylist
+
+    // this cause all other elements move up, for larger array list this need lot of processing
+    // same as remove element in the middle index
+
+    }
+
+// Importance of linked list
+
+It is quite easy to add node in the middle of the list, no need to change other nodes. We just need to manipulate
+two nodes in the list for newly joined list
+
+when we remove the middle node, java garbage collector automatically distroy that node
+
+Java implemented the linked list as doubly linked list

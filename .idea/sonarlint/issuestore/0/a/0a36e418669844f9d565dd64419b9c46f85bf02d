@@ -1,0 +1,8 @@
+
+‚
+java:S1319	"lThe type of "transactions" should be an interface such as "List" rather than the implementation "ArrayList".(é›Å½
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(±Î×²
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜áÖÜüÿÿÿÿ
+I
+java:S1172	"3Remove this unused method parameter "transactions".(é›Å½

@@ -1,0 +1,71 @@
+// Non static methods can not be referenced from static context -> reason for this
+
+Static and Instance Methods
+---------------------------
+---------------------------
+
+Static methods
+--------------
+Static methods can't access instance methods and instance variables directly.
+Usually used for operations that do not require any data from an instance of the class (from 'this')
+    'this' -> keyword is the current instance of a class
+In static methods we can not use 'this' keyword
+When ever you see a method that does not use instance variables that method should be declared as a static method
+
+
+class Calculator {
+    public static int calcSum(int a, int b) {
+        return a+b;
+    }
+}
+
+
+public class Main {
+
+    private static void main(String[] arg) {
+        int result = Calculator.calcSum(5,10);
+        printHello(); // Main.printHello();
+    }
+
+    private/public static void printHello() {
+        System.out.println("printhello");
+    }
+}
+
+
+Instance Methods
+----------------
+Instance methods belong to an instance of a class
+To use instance method we have to instantiatte the class first using the new keyword
+Instance methods can access instance methods and instance variables directly
+Instance methods can also access static methods and static variables directily
+
+Should a method be static ?
+
+Does it use any fields (instance variables or instance methods)
+Yes -> should be instance method
+No ->  should be static method
+
+
+Static and Instance Variables
+-----------------------------
+-----------------------------
+
+Static Variables
+----------------
+
+static variables are known as static member variables
+Every instance of that class shares the same static variable
+If changes are made to that variable, all other instances will see the effect of the changes.
+
+eg :- taking user input through scanner class
+
+So all static methods can access that variable
+
+Instance Variable
+-----------------
+Instance variables are belongs to the instance of the class
+Every instance has it's own copy of an instance variable
+Every instance can have a different value(state)
+Instance variables represent the state of an instance
+
