@@ -1,0 +1,28 @@
+Java design patterns
+
+Creational pattern
+Structural pattern
+Behavioural pattern
+
+Q and A
+
+Should I learn design patterns - No
+
+Instead learn core concept like how to build a restfull api, how to secure a api, programming language.
+learn singeleton cause its every where.
+
+* Fist learn language at intermediate level
+
+Focus on principles not patterns
+
+DRY  - DO NOT REPEAR YOUR SELF
+
+SOLID
+
+Check these things in writtern code bases
+
+1 . S - Single responsibility
+Method does one thing
+
+2 . D - Dependency Inversion principle
+

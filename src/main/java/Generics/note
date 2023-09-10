@@ -1,0 +1,13 @@
+Array list is generic type
+
+List myList = new ArrayList(); <- should provide a type
+
+correct
+
+List<Integer> myList = new ArrayList()
+// putting Integer here is sufficient in declaration
+
+note - bounded type parameters in java generics
+
+Abstract Class Player
+<T extends Player>  // any class that extends from player or subclass of player

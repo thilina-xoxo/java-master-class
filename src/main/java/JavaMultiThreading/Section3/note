@@ -1,0 +1,20 @@
+Summary
+1 - Thread termination
+2 - Demon threads
+3 - Thread.interupt()
+
+
+
+Thread termination
+--
+When we can interrupt a thread
+
+1 - if a thread is executing method that throws interupted exception
+2 - if the threads code is handling the interupt signl explicitly
+
+
+Demon Threds
+--
+
+Background threads that do not prevent the application from existing if the main thread terminates
+(What ever happens inside the demon thread should not cause to main program to exist)

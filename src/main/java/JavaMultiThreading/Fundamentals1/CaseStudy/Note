@@ -1,0 +1,2 @@
+// few hacker threads - try to crack code concurrently
+// police thread - counting down to 10 and if hackers fails police gonna arrest them
